@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+h3{
+color: #424769;
+font-family: 'Roboto', sans-serif;
+font-size: large;
+line-height: 20px;
+}
+h1{
+  color: #424769;
+  font-family: 'Roboto', sans-serif;
+  font-size:xx-large ;
+  line-height: 20px;
+  }
+img{
+  height: 220px;
+  width: 220px;
+  border-radius: 100%;
+}
+.container{
+  text-align: center;
+  margin-top: 60px;
+
+}
+a{
+  color: #7D0A0A;
+  text-decoration: none;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  background-color:  #D2E3C8;
+}
+.card{
+  text-align: center;
+  background-color: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+}
+ul{
+  list-style-type: none;
+}
+.card2{
+  margin-top : 10px;
+  width: 800px;
+  margin-left: 200px;
+  border-radius: 7px;
+
+}
+button{
+  color: #424769;
+  background-color: white;
+  border:1px solid black;
+  width: 200px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+li{
+  font-size: larger;
+}
+button:hover{
+  background-color: #424769;
+  color: aliceblue;
+  opacity: 0.2s;
+}
