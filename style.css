@@ -44,6 +44,8 @@ ul{
   width: 800px;
   margin-left: 200px;
   border-radius: 7px;
+  box-shadow:  23px 23px 46px #71767e,
+             -23px -23px 46px #ffffff;
 
 }
 button{
